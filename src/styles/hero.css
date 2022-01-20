@@ -1,0 +1,40 @@
+/* .hero {
+  position: relative;
+} */
+.left-hero-text {
+  margin-top: 110px;
+  margin-left: 140px;
+  display: inline-block;
+}
+
+.hero-text {
+  padding-top: 1.5rem;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--primary-color);
+}
+.hero-text-sub {
+  font-size: 1.25rem;
+  color: var(--secondary-color);
+}
+.right-hero-images {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  border-bottom: 10px solid var(--primary-color);
+}
+.left,
+.right {
+  background-color: var(--primary-color);
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.125rem;
+}

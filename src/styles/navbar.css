@@ -1,0 +1,78 @@
+.cta-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.cta-contact {
+  display: flex;
+  margin-left: 390px;
+}
+.cta-nav-items {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.cta-nav-items img {
+  margin-right: 0.5rem;
+}
+.cta-nav-items a {
+  color: var(--primary-color);
+  font-size: 0.875;
+}
+
+.cta-b2b {
+  display: flex;
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+.b2b {
+  padding: 0 1rem;
+  position: relative;
+  cursor: pointer;
+}
+.b2b h2 {
+  font-size: 1.125rem;
+  color: var(--primary-color);
+}
+.line {
+  position: absolute;
+  top: 0px;
+  right: -5px;
+  font-size: 2rem;
+}
+.language {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 1rem;
+}
+.language p {
+  cursor: pointer;
+  margin-top: 1.2rem;
+}
+
+/*Nav bar */
+
+nav {
+  display: flex;
+  margin-left: 150px;
+  align-items: center;
+  position: absolute;
+  top: 25px;
+}
+ul {
+  display: flex;
+}
+ul li {
+  padding-left: 1.5rem;
+}
+ul li a {
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+.active {
+  color: var(--primary-color);
+}
