@@ -1,0 +1,19 @@
+.vonchers-container {
+  margin-top: 163px;
+  border-top: 1px solid var(--secondary-color);
+  text-align: center;
+}
+.vouchers-imges {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3.125rem 0;
+}
+.vouchers-text p {
+  font-size: 0.75rem;
+}
+.vouchers-text p:first-child {
+  padding-bottom: 1.875rem;
+}
+.bold {
+  font-weight: bold;
+}

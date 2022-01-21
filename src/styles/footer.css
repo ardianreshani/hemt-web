@@ -1,0 +1,32 @@
+.footer {
+  margin-top: 165px;
+}
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  display: flex;
+  padding: 25px;
+}
+.item p {
+  padding-left: 0.8rem;
+}
+.footer-copyright {
+  background-color: var(--primary-color);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  position: relative;
+}
+.footer-copyright img:first-child {
+  position: absolute;
+  top: -140px;
+  left: 50px;
+}
+.footer-copyright p {
+  padding-right: 0.5rem;
+}

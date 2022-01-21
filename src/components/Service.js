@@ -6,6 +6,7 @@ import worker from "../images/-e-icon wokrer.png";
 const Service = () => {
   return (
     <div className="service">
+      <div className="bg-img"></div>
       <div className="row">
         <div className="service-container">
           <div className="service-image">
