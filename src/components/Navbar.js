@@ -13,7 +13,9 @@ const Navbar = () => {
           <div className="cta-contact">
             <div className="cta-nav-items">
               <img src={emailIcon} alt="email icon" />
-              <Link to="/">info@hemt.si</Link>
+              <button onClick={() => (window.location = "mailto:info@hemt.si")}>
+                info@hemt.si
+              </button>
             </div>
             <div className="cta-nav-items">
               <img src={PhoneIcon} alt="phone icon" />

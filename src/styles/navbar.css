@@ -76,3 +76,9 @@ ul li a {
 .active {
   color: var(--primary-color);
 }
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: var(--primary-color);
+}
