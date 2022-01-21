@@ -8,6 +8,7 @@
   position: relative;
   top: -100px;
   left: 70px;
+  z-index: -3;
 }
 
 .green-bg {
@@ -16,7 +17,7 @@
   height: 788px;
   position: absolute;
   right: 0;
-  z-index: -1;
+  z-index: -4;
 }
 .o-nas h1 {
   color: var(--primary-color);
@@ -26,6 +27,20 @@
 .solutions {
   position: relative;
   margin-bottom: 500px;
+}
+.solutions::before {
+  content: "";
+  position: absolute;
+  top: 100px;
+  left: 0;
+  background: url("../images/BGService.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: luminosity;
+  opacity: 8;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
 }
 .left-solutions-text {
   width: 20%;

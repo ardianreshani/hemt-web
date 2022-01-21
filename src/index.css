@@ -6,3 +6,14 @@
 @import url(./styles/vouchers.css);
 @import url(./styles/footer.css);
 @import url(./styles/aboutus.css);
+
+.coming-soon {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.coming-soon h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}

@@ -17,7 +17,7 @@ const Navbar = () => {
             </div>
             <div className="cta-nav-items">
               <img src={PhoneIcon} alt="phone icon" />
-              <Link to="/">+386 70 555 238</Link>
+              <a href="tel:+386 70 555 238">+386 70 555 238</a>
             </div>
           </div>
           <div className="cta-b2b">
@@ -48,7 +48,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="#" className="dropbox">
+              <Link to="/services" className="dropbox">
                 {" "}
                 STORITVE{" "}
               </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
               <Link to="/about">O NAS</Link>
             </li>
             <li>
-              <Link to="#"> KONTAKT</Link>
+              <Link to="/contact"> KONTAKT</Link>
             </li>
           </ul>
         </nav>
