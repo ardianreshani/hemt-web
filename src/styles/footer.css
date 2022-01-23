@@ -30,3 +30,36 @@
 .footer-copyright p {
   padding-right: 0.5rem;
 }
+.webtim-icon {
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    background-color: var(--primary-color);
+    color: white;
+    margin-top: 250px;
+    padding-bottom: 2rem;
+  }
+  .footer-contact {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .footer-copyright {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer-copyright img:first-child {
+    top: -400px;
+    left: 140px;
+  }
+  .item {
+    padding: 15px;
+    align-items: center;
+    width: 70%;
+  }
+  .item img {
+    background-color: #fff;
+    padding: 0.5rem;
+  }
+}

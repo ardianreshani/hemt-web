@@ -102,3 +102,28 @@
   font-size: 1.125rem;
   color: var(--secondary-color);
 }
+@media screen and (max-width: 768px) {
+  .why-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .why-us-text h1 {
+    margin-right: 0;
+    font-size: 2.75rem;
+    padding-bottom: 1rem;
+  }
+  .two-colum {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .text h3 {
+    padding-bottom: 1rem;
+  }
+}

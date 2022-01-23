@@ -10,10 +10,18 @@
 .coming-soon {
   display: grid;
   place-items: center;
+
+  background: linear-gradient(
+    90deg,
+    hsla(18, 76%, 85%, 1) 0%,
+    hsla(203, 69%, 84%, 1) 99%
+  );
+  width: 100vw;
   height: 100vh;
 }
 .coming-soon h1 {
   font-size: 5rem;
   font-weight: bold;
-  color: var(--primary-color);
+
+  color: #fff;
 }

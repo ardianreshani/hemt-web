@@ -17,3 +17,16 @@
 .bold {
   font-weight: bold;
 }
+@media screen and (max-width: 768px) {
+  .vonchers-container {
+    margin-top: 0;
+  }
+  .vouchers-imges {
+    flex-direction: column;
+  }
+  .vouchers-imges img {
+    width: 50%;
+    height: 50%;
+    margin: 1rem auto;
+  }
+}

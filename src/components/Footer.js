@@ -27,7 +27,12 @@ const Footer = () => {
         <p>
           © 2021 HEMT, Edin Hamulić s.p. | splošni pogoji poslovanja | avtorji:{" "}
         </p>{" "}
-        <img src={webtim} alt="webtim icon" />
+        <img
+          src={webtim}
+          alt="webtim icon"
+          className="webtim-icon"
+          onClick={() => (window.location.href = "https://webtim.si/")}
+        />
       </div>
     </footer>
   );
